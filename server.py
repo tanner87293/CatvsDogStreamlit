@@ -3,7 +3,11 @@ import urllib.request
 from fastai.vision.all import *
 
 
-def label_func(f): return f[0].isupper()
+def label_function(file_name):
+  if file_name[0].isupper(): # isupper is True if all the characters in the string are uppercase
+    return True # It's a cat
+  else:
+    return False
 
 
 # Load the pre-trained model
