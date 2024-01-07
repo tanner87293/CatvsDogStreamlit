@@ -7,7 +7,7 @@ def label_func(f): return f[0].isupper()
 
 
 # Load the pre-trained model
-model = load_learner('my_model.pkl')
+model = load_learner('cats_vs_dog.pkl')
 
 
 # Define a function to make predictions
@@ -24,7 +24,7 @@ def predict(image):
 
 
 # Streamlit app title and description
-st.title("Cat vs. Dog Classifier")
+st.title("Cat vs. Dog Classifier by Gamas Chang")
 st.write("Upload an image, and I'll tell you whether it's a cat or a dog!")
 
 # File uploader widget
