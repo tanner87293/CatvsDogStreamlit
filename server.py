@@ -7,7 +7,7 @@ def label_func(f): return f[0].isupper()
 
 
 # Load the pre-trained model
-model = load_learner('cats_vs_dog.pkl')
+model = load_learner('cat_vs_dog.pkl')
 
 
 # Define a function to make predictions
